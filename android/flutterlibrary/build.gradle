@@ -40,7 +40,7 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
+                //from components.release
 
                 groupId = 'com.github.sabarish1610'
                 artifactId = 'flutterlibrary'
